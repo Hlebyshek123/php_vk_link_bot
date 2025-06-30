@@ -4,6 +4,20 @@ Bot for managing Minecraft account and console in VK // Бот для управ
 # 🚀 Установка
 Все в **readme.php**
 
+# 📸 Скринчики
+
+**Некоторые скрины из бота**
+
+![Screenshot_20250630-231022](https://github.com/user-attachments/assets/240a6336-78e1-4e84-be08-5c01bcb0b0d9)
+![Screenshot_20250630-230822](https://github.com/user-attachments/assets/3d82d210-103a-41ab-8a02-5cada104bb71)
+![Screenshot_20250630-230257](https://github.com/user-attachments/assets/1947853f-a5b9-42f9-b4a7-eda34cd1c1be)
+![Screenshot_20250630-225602](https://github.com/user-attachments/assets/a7a0dfca-030c-4b62-a17f-27a65e32980e)
+![Screenshot_20250630-225342](https://github.com/user-attachments/assets/e874742b-4a4a-4b37-a468-52a45f85f0a1)
+![Screenshot_20250630-225407](https://github.com/user-attachments/assets/e525f131-d86f-453b-9e61-7c711cc92920)
+![Screenshot_20250630-225438](https://github.com/user-attachments/assets/abfc8047-26bc-4d44-81ab-9bc02741fdae)
+![Screenshot_20250630-225306](https://github.com/user-attachments/assets/67c623c8-eb80-449d-b4b4-1e342705926c)
+
+
 # **✨ Зависимости Бота**
 
 **Вконтакте PHP SDK ^5.131**
