@@ -6,11 +6,11 @@ Bot for managing Minecraft account and console in VK // Бот для управ
 
 # **✨ Зависимости Бота**
 
-*Вконтакте PHP SDK ^5.131*
+**Вконтакте PHP SDK ^5.131**
 ```
 composer require vk/php-sdk:5.131
 ```
-*Composer*
+**Composer**
 
 *Установка curl если нет*
 ```
@@ -37,7 +37,7 @@ composer require vendor/package
 ```
 composer self-update
 ```
-*PHP 8.1*
+**PHP 8.1**
 
 *1. Обновите систему Ubuntu 22.04*
 ```
@@ -74,7 +74,7 @@ sudo update-alternatives --set php /usr/bin/php8.1
 ```
 sudo a2dismod php7.4(или версия которая активна) && sudo a2enmod php8.1 && sudo systemctl restart apache2
 ```
-*MySQL*
+**MySQL**
 ```
 sudo apt install mysql-server -y
 ```
@@ -86,6 +86,11 @@ sudo systemctl start mysql && sudo systemctl enable mysql && sudo systemctl stat
 должно писать active(running)
 
 *Настройка безопасности*
+
+```
+sudo mysql_secure_installation
+```
+Нужно ответить на пару вопросов
 
 1. Y
 2. 1
@@ -303,4 +308,10 @@ define('RCON_RANKS', $rcon_ranks);
 Чтобы привязать **ВК Профиль** к **нику** игрока нужно чтоб он отправил любое сообщение боту в лс потом зашел на сервер прописал команду **/vkcode** после того как он получит код нужно вернуться к боту и ввести команду
 ```
 !привязка [ник] [вк код]
+```
+# 🔰 Помощь
+*ВК*
+
+```
+@zl_hlebyshek
 ```
