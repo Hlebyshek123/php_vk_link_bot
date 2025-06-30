@@ -38,6 +38,7 @@ composer require vendor/package
 composer self-update
 ```
 *PHP 8.1*
+
 *1. Обновите систему Ubuntu 22.04*
 ```
 sudo apt update && sudo apt upgrade -y
@@ -81,27 +82,31 @@ sudo apt install mysql-server -y
 ```
 sudo systemctl start mysql && sudo systemctl enable mysql && sudo systemctl status mysql
 ```
+
 должно писать active(running)
 
 *Настройка безопасности*
-первый вопрос Y
-второй вопрос 0-2 
-(0- не сложный 1- сложный 2 строгий)
-третий вопрос введите пароль для пользователя root
-четвертый вопрос Y
-пятый вопрос N
-шестой вопрос Y
-седьмой вопрос Y
+
+1. Y
+2. 1
+3. введите пароль для пользователя root
+4. Y
+5. N
+6. Y
+7. Y
 
 *Настройка удаленного доступа*
+
 Найти файл **mysqld.cnf** по пути
 */etc/mysql/mysql.conf.d/mysqld.cf*
-Найти там строчку **bind-address** = 127.0.0.1 и заменить на
+Найти там строчку 
+**bind-address** = 127.0.0.1 и заменить на
 ```
 bind-address = 0.0.0.0
 ```
 
 *Рестарт MySQL*
+
 ```
 sudo systemctl restart mysql
 ```
