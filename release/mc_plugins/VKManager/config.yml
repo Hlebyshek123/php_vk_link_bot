@@ -1,0 +1,13 @@
+host: "178.236.243.51"
+user: "hlebuser"
+password: "hRN-V2Fv!Bt_Zb@"
+database: "bot_data"
+port: 3306
+vk_access_token: "vk1.a.Q8yKtIubVfEYoqgQmiaJs06WXWlQ1P8AQsR8HwKW0IvQRUQyA0iv6sDq2SuFxyNeYSUK3iY9AYVo1zKDeSrMVajrNMzMliJsJXWpyi1ucgi8QlFlunNjv2Bz-zjgGQQTM1e3h31LIuDn-hw4A6SaDKbYa2DigSxoAy54adahPnLvKNuciPGwe0bmRyfE0biN5QSXmp7UkINRmNeSqBbnhg"
+vk_owner_id: "789886979"
+
+protected_nicks:
+  - "hlebuser1"
+  - "ragebait"
+  - "hlebuser2"
+  - "rampage"

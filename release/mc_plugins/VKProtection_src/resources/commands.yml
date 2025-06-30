@@ -1,0 +1,39 @@
+# Команды плагина MultiProtection
+
+# Главная команда (/главная-команда подкоманда)
+main-command: "2fa"
+
+# Подкоманды для защиты по скину
+skin-commands:
+  # Включить защиту
+  enable-cmd: "skin-on"
+  
+  # Выключить защиту
+  disable-cmd: "skin-off"
+  
+  # Возможность сбросить защиту
+  restore-cmd: "restore-skin"
+
+
+# Подкоманды для защиты по скину
+cid-commands:
+  # Включить защиту
+  enable-cmd: "cid-on"
+  
+  # Выключить защиту
+  disable-cmd: "cid-off"
+  
+  # Возможность сбросить защиту
+  restore-cmd: "restore-cid"
+
+
+# Подкоманды для защиты по скину
+uuid-commands:
+  # Включить защиту
+  enable-cmd: "uuid-on"
+  
+  # Выключить защиту
+  disable-cmd: "uuid-off"
+  
+  # Возможность сбросить защиту
+  restore-cmd: "restore-uuid"

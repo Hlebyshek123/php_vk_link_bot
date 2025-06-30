@@ -1,0 +1,10 @@
+name: Auth
+main: avoidmefull\auth
+version: 0.1
+api: 3.27.0
+
+commands:
+ auth-kick:
+  description: Удаленное отключение по причинам авторизации аккаунта
+ auth-set-password:
+  description: Удаленная смена пароля по причинам восстановления пароля

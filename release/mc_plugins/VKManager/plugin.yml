@@ -1,0 +1,26 @@
+name: VKManager
+main: VKManager\VKManagerMain
+version: 1.0.0
+api: [3.0.0]
+commands:
+  give-acs:
+    description: "Выдать ВК игроку доступ"
+    usage: "/give-acs"
+  vkcode:
+    description: "Получить уникальный код привязки к ВК"
+    usage: "/vkcode"
+  force-add:
+    description: "Принудительная привязка к вк"
+    usage: "/force-add"
+  force-delete:
+    description: "Принудительная отвязка от вк"
+    usage: "/force-delete"
+  status-vk:
+    description: "Статус ВК игрока"
+    usage: "/status-vk"
+  vkm-help:
+    description: "Помощь VKM"
+    usage: "/vkm-help"
+  vksay:
+    description: "Броадкаст сообщение"
+    usage: "/vksay"

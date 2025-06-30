@@ -1,0 +1,10 @@
+# Переключатели плагина MultiProtection
+
+# Включить возможность защиты через скин
+skin-enable: true
+
+# Включить возможность защиты через CID
+cid-enable: true
+
+# Включить возможность защиты через UUID
+uuid-enable: false

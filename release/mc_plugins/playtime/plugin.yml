@@ -1,0 +1,9 @@
+name: playtime
+main: avoidmefull\playtime
+version: 0.1
+author: avoidmefull (Кирилл Огульчанский)
+api: 3.27.0
+
+commands:
+ playtime:
+  description: Узнать время игры на сервере

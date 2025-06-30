@@ -1,0 +1,7 @@
+name: vkProtection
+main: PROTECT\CID\CID
+version: 1.0
+api: [2.0.0, 3.0.1]
+load: POSTWORLD
+author: VK
+description: "Защита аккаунта через различные способы"
